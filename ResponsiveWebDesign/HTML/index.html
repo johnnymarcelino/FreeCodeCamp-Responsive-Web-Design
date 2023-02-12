@@ -42,15 +42,25 @@
         <li>other cats</li>
       </ol>
       <figure>
-        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+          alt="Five cats looking around a field.">
         <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
       </figure>
     </section>
     <section>
       <h2>Cat Form</h2>
       <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
-      <!-- <input type="radio" button></button Indoor> -->
-      <input type="radio" name="" id="" button type=""></button>
+      <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label><input type="radio" name="indoor-outdoor" id="Indoor" value="indoor" /> Indoor</label>
+        <label><input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor" /> Outdoor</label>
+      </fieldset>
+      <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <input type="checkbox" id="loving" name="personality"><label for="loving"> Loving </label>
+        <input id="lazy" type="checkbox" name="personality"> <label for="lazy"> Lazy </label>
+        <input id="energetic" type="checkbox" name="personality"> <label for="energetic"> Energetic </label>
+      </fieldset>
       <input type="text" name="catphototourl" placeholder="Email adress" id="" required>
       <button type="submit">submit</button>
     </section>
