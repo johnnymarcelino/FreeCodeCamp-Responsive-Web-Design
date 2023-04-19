@@ -4,6 +4,14 @@ p {
     text-align: center;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 body {
     /* background-color: burlywood; */
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
@@ -26,7 +34,8 @@ body {
     padding-bottom: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Impact, serif;
 }
 
