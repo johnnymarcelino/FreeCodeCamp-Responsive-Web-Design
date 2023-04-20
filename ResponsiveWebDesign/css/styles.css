@@ -22,6 +22,12 @@ body {
     font-style: italic;
 }
 
+hr {
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
+}
+
 .menu {
     /* width: 300px; */
     width: 80%;
