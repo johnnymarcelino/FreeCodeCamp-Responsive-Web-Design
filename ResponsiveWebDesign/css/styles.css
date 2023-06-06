@@ -29,6 +29,10 @@ hr {
     border-color: brown;
 }
 
+.bottom-line {
+    margin-top: 25px;
+}
+
 .menu {
     /* width: 300px; */
     width: 80%;
